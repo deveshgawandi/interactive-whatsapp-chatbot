@@ -1,0 +1,9 @@
+# Flask framework to run the web server
+Flask
+
+# Library to make HTTP requests to the Meta API
+requests
+
+# Libraries for PDF manipulation and creation
+PyPDF2
+reportlab

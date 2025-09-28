@@ -1,0 +1,18 @@
+# Virtual Environment
+venv/
+*.venv
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Temporary personalized PDFs
+temp_*.pdf
+
+# VS Code settings
+.vscode/
+
+# Environment file (if you use one)
+.env
