@@ -1,16 +1,17 @@
 Python WhatsApp Chatbot with Dynamic PDFs
-A sophisticated, interactive WhatsApp chatbot built with Python and Flask, designed for businesses to automate customer interactions and deliver personalized marketing materials directly through the Meta (Facebook) Graph API.
+A sophisticated, interactive WhatsApp chatbot built with Python and the Flask Framework, designed for businesses to automate customer interactions and deliver personalized marketing materials directly through the Meta (Facebook) Graph API.
 
 The standout feature of this bot is its ability to dynamically generate personalized PDF documents on the fly, stamping the user's name and phone number onto a template before sending it.
+
+Live Demo
+(This is a great place to add a GIF or short video of your chatbot in action!)
 
 Key Features
 Interactive UI: Utilizes WhatsApp's native List Messages for a clean, user-friendly, multi-step conversation flow.
 
-Interactive UI: Utilizes WhatsApp's native List Messages for a clean, user-friendly, multi-step conversation flow.
-
 Dynamic PDF Personalization: On request, the bot merges a user's details (name and phone number) onto a master PDF template, creating a personalized copy for each lead.
 
-Multi-Media Support: Seamlessly sends various media types, including documents (PDFs), images, and links to videos.
+Multi-Media Support: Seamlessly sends various media types, including documents (PDFs) and links to videos.
 
 Asynchronous File Handling: Employs background threading to manage time-consuming tasks like uploading and sending multiple files. This ensures the main server responds instantly to Meta's webhooks, preventing timeouts and repeated actions.
 
@@ -80,13 +81,3 @@ Expose Your Local Server with ngrok:
 In a separate terminal, run:
 
 ngrok http 5000
-
-I have now updated your README.md file.
-
-All you need to do is replace the text YOUR_DIRECT_LINK_TO_THE_GIF_HERE.gif with the actual "Direct Link" you copied from Postimages.
-
-After you've done that and saved the file, you just need to upload this change to GitHub using the familiar commands:
-
-git add README.md
-git commit -m "Add demo GIF to README"
-git push
