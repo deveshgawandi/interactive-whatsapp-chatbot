@@ -1,10 +1,10 @@
-#*Python WhatsApp Chatbot with Dynamic PDFs
+Python WhatsApp Chatbot with Dynamic PDFs
 A sophisticated, interactive WhatsApp chatbot built with Python and the Flask Framework, designed for businesses to automate customer interactions and deliver personalized marketing materials directly through the Meta (Facebook) Graph API.
 
 The standout feature of this bot is its ability to dynamically generate personalized PDF documents on the fly, stamping the user's name and phone number onto a template before sending it.
 
 
-#*Key Features
+Key Features
 Interactive UI: Utilizes WhatsApp's native List Messages for a clean, user-friendly, multi-step conversation flow.
 
 Dynamic PDF Personalization: On request, the bot merges a user's details (name and phone number) onto a master PDF template, creating a personalized copy for each lead.
